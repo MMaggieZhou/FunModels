@@ -1,1 +1,7 @@
-updates 11/07/2022: generalize model to be able to support DCGAN with or without weight clip; modularize code for training 
+updates 11/07/2022: 
+  - model training output(sample images/checkpoint/loss history) are persisted to google drive; while test data remains on training computing unit 
+  - add code to checkpoint and resume last checkpoing.
+  Now the training can be resumable from where it's interrupted, instead of starting from the beginning!!
+  - generalize model to be able to support DCGAN with or without weight clip
+  - modularize code for training 
+  (I have a rough model trained with WGAN and now training a model without, and working on adding FID as evaluation metric)
