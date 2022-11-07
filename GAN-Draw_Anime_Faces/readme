@@ -1,0 +1,1 @@
+updates 11/07/2022: generalize model to be able to support DCGAN with or without weight clip; modularize code for training 
